@@ -5,7 +5,7 @@
  * Time: 11:24 AM
  * To change this template use File | Settings | File Templates.
  */
-var fps = 90; // how many 'update' frames per second
+var fps = 60; // how many 'update' frames per second
 var step = 1 / fps; // how long is each frame (in seconds)
 var width = 1024; // logical canvas width
 var height = 768; // logical canvas height
