@@ -275,6 +275,7 @@ function chgTimeScale(incr) {
     timeScale = timeScale < 0 ? 8 : timeScale > 8 ? 0 : timeScale;
   }
   currentTimeScale = timeScales[timeScale];
+  console.log ('position' = position )
   if (timeScale == 3) {
     // water
     maxSpeed = maxSpeed / 2;
@@ -808,7 +809,7 @@ function formatTime(dt) {
 // RENDER THE GAME WORLD
 //=========================================================================
 // order of objects to render
-// 1. backgrounds (ski, mountains, trees)
+// 1. backgrounds (sky, mountains, trees)
 // 2. ground polygon (requires pass thru segments to find horizon line)
 // 3. road segments (back to front, for
 // 4. stationary sprites
