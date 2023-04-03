@@ -275,7 +275,7 @@ function chgTimeScale(incr) {
     timeScale = timeScale < 0 ? 8 : timeScale > 8 ? 0 : timeScale;
   }
   currentTimeScale = timeScales[timeScale];
-  console.log ('position' = position )
+  console.log ('position' = position );
   if (timeScale == 3) {
     // water
     maxSpeed = maxSpeed / 2;
